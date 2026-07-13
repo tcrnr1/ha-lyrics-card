@@ -1,0 +1,30 @@
+{
+  "name": "ha-lyrics-card",
+  "version": "0.0.1",
+  "description": "Home Assistant Lovelace card for synchronized song lyrics",
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite build --watch",
+    "lint": "tsc --noEmit"
+  },
+  "keywords": [
+    "home-assistant",
+    "lovelace",
+    "lyrics",
+    "music",
+    "sonos",
+    "spotify",
+    "music-assistant"
+  ],
+  "author": "tcrnr1",
+  "license": "MIT",
+  "dependencies": {
+    "lit": "^3.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.8.3",
+    "vite": "^7.0.6"
+  }
+}
